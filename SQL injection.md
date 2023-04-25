@@ -1,5 +1,6 @@
 # Resources
 - [Learn about SQL injection](https://portswigger.net/web-security/sql-injection)
+- [Pracice SQLi on bWAPP](http://www.itsecgames.com/)
 
 # Payloads
 
