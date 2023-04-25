@@ -14,6 +14,7 @@
 
 ## Login bypassing
 Note: Remember, sometimes you have to repleace 'admin' for another username. Here, 'admin' is just an example.
+```sql
 '-'
 ' '
 '&'
