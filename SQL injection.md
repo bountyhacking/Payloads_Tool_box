@@ -6,6 +6,9 @@
 ## Retriving hidden data
 ```sql
 ' or 1=1-- -
+' or 1=1--
+' --
+
 ```
 [Practice this payload here](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)
 
