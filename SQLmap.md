@@ -1,6 +1,8 @@
+### Learn about SQLmap
 - [SQLmap tutorial for begineers](https://tryhackme.com/room/sqlmap)
 - [SQLmap video tutorial](https://www.youtube.com/watch?v=pF7uz_ptuFc&ab_channel=ElPing%C3%BCinodeMario)
 - [SQLmap extended video tutorial](https://www.youtube.com/watch?v=2y70Yj0oSxw&ab_channel=SEGURIDADCERO)
+### Labs for practice
 - [SQLi Laboratory for practice](https://app.hackthebox.com/machines/446)
 
 # Usage
