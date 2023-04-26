@@ -4,7 +4,7 @@
 # Usage
 
 ## 1) Intercept the request header with burpsuite, the request should be like:
-```sql
+```javascript
 POST /login HTTP/1.1
 Host: 10.10.11.130
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
@@ -19,5 +19,5 @@ Connection: close
 Referer: http://10.10.11.130/
 Upgrade-Insecure-Requests: 1
 
-email=admin%40admin.com&password=admin -- <-This field its the injection point
+email=admin%40admin.com&password=admin // <--This field its the injection point
 ```
