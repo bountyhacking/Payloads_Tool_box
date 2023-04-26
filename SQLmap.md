@@ -37,5 +37,5 @@ sqlmap -r peticion.txt -dbs
 ```
 ## 5) Dump the database information
 ```bash
-sqlmap -r peticion.txt -D <nama_of_database> -dump
+sqlmap -r peticion.txt -D <name_of_database> -dump
 ```
