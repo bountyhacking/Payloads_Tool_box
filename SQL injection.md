@@ -1,6 +1,7 @@
 # Resources
 - [Learn about SQL injection](https://portswigger.net/web-security/sql-injection)
 - [Learn and practice SQLi](https://tryhackme.com/room/sqlilab)
+- [Practice SQLi on Portswigger](https://portswigger.net/web-security/all-labs#sql-injection)
 - [Pracice SQLi on bWAPP](http://www.itsecgames.com/)
 
 # Payloads
