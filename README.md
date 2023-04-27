@@ -1,4 +1,4 @@
-# Pentest tool box for eWPTX eLeanringSecurity
+# Pentest Tool Box for eWPTX eLearningSecurity Certification
 
 ## Social Media
 - [Linkedin](#)
