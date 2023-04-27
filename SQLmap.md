@@ -29,6 +29,7 @@ email=admin%40admin.com&password=admin // <--This field its the injection point
 nano peticion.txt
 ```
 ## 3) Use SQLmap with the previouse .txt file (peticion.txt example)
+- -r: Read file parameter
 ```bash
 sqlmap -r peticion.txt
 ```
