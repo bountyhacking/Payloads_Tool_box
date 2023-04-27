@@ -8,4 +8,8 @@ Este 'repo' contiene todos mis apuntes y lugares donde consulté diferentes fuen
 - [SQLmap](#)
 - [SSTI](#)
 - [SSRF](#)
+- [XSS](#)
+- [XXE](#)
+- [Clickjacking](#)
+- [IDOR](#)
 - [Tools](#)
