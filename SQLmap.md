@@ -3,7 +3,8 @@
 - [SQLmap video tutorial](https://www.youtube.com/watch?v=pF7uz_ptuFc&ab_channel=ElPing%C3%BCinodeMario)
 - [SQLmap extended video tutorial](https://www.youtube.com/watch?v=2y70Yj0oSxw&ab_channel=SEGURIDADCERO)
 ### Labs for practice
-- [SQLi Laboratory for practice](https://app.hackthebox.com/machines/446)
+- [HTB Goodgames](https://app.hackthebox.com/machines/446)
+- [HTB Validation](https://app.hackthebox.com/machines/382)
 
 # I) Usage with HTTP POST
 ## 1) Intercept the request header with burpsuite. (THIS WILL WORK ONLY WITH POST) the request should be like:
