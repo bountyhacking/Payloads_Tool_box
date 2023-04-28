@@ -8,7 +8,7 @@
 # SQL injection Basic Work Flow 
 ```mermaid
 graph TD;
-    BSM-->TABLES-->COLUMNS-->DATA;
+    A[BSM] --> [B] TABLES --> [C] COLUMNS--> [D]DATA;
 ```
 
 
