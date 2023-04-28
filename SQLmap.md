@@ -6,6 +6,9 @@
 - [HTB Goodgames](https://app.hackthebox.com/machines/446)
 - [HTB Validation](https://app.hackthebox.com/machines/382)
 
+# I) SQLmap parameters
+PARAMETERS HERE!
+
 # I) Usage with HTTP POST
 ## 1) Intercept the request header with burpsuite. (THIS WILL WORK ONLY WITH POST) the request should be like:
 ```javascript
