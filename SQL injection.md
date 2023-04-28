@@ -1,8 +1,16 @@
 # Resources
 - [Learn about SQL injection](https://portswigger.net/web-security/sql-injection)
+- [SQLinjection Video Tutorial](https://www.youtube.com/watch?v=C-FiImhUviM&ab_channel=S4viOnLive%28BackupDirectosdeTwitch%29)
 - [Learn and practice SQLi](https://tryhackme.com/room/sqlilab)
 - [Practice SQLi on Portswigger](https://portswigger.net/web-security/all-labs#sql-injection)
 - [Pracice SQLi on bWAPP](http://www.itsecgames.com/)
+
+# SQL injection Basic Work Flow 
+```mermaid
+graph TD;
+    BSM-->TABLES-->COLUMNS-->DATA;
+```
+
 
 # Payloads
 
