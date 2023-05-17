@@ -13,7 +13,7 @@ Sometimes John won't play nicely with automatically recognising and loading hash
 
 Hash-identifire is installed on kali machines, you can use it on bash:
 ```bash
-hash-identifier
+hash-identifier 'your_hash_go_here'
 ```
 
 To use hash-identifier, you can just pull the python file from gitlab using: 
