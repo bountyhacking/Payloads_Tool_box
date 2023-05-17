@@ -1,3 +1,8 @@
+# About
+### Automatic Cracking
+
+John has built-in features to detect what type of hash it's being given, and to select appropriate rules and formats to crack it for you, this isn't always the best idea as it can be unreliable- but if you can't identify what hash type you're working with and just want to try cracking it, it can be a good option! 
+
 # Using John to break MD5 HASH
 
 ## 1) Create a file with the hash to break
