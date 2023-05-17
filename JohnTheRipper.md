@@ -1,4 +1,8 @@
 # About
+
+[Learn about Johon](https://tryhackme.com/room/johntheripper0)
+[Corridor C.T.F](https://tryhackme.com/room/corridor)
+
 ### Automatic Cracking
 
 John has built-in features to detect what type of hash it's being given, and to select appropriate rules and formats to crack it for you, this isn't always the best idea as it can be unreliable- but if you can't identify what hash type you're working with and just want to try cracking it, it can be a good option! 
