@@ -25,3 +25,14 @@ Then simply launch it with python3 and then enter the hash you're trying to iden
 python3 hash-id.py
 ```
 
+### Format-Specific Cracking
+Once you have identified the hash that you're dealing with, you can tell john to use it while cracking the provided hash using the following syntax:
+```bash
+john --format=[format] --wordlist=[path to wordlist] [path to file]
+```
+Example:
+```bash
+john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt hash_to_crack.txt 
+```
+### Cracking examples
+
