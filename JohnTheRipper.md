@@ -1,7 +1,7 @@
 # About
 
-[Learn about Johon](https://tryhackme.com/room/johntheripper0)
-[Corridor C.T.F](https://tryhackme.com/room/corridor)
+- [Learn about Johon](https://tryhackme.com/room/johntheripper0)
+- [Corridor C.T.F](https://tryhackme.com/room/corridor)
 
 ### Automatic Cracking
 
