@@ -30,9 +30,13 @@ Once you have identified the hash that you're dealing with, you can tell john to
 ```bash
 john --format=[format] --wordlist=[path to wordlist] [path to file]
 ```
-Example:
+Example using md5:
 ```bash
 john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt hash_to_crack.txt 
+```
+Example using Whirlpool:
+```bash
+john --format=Whirlpool --wordlist=/usr/share/wordlists/rockyou.txt hash4.txt
 ```
 ### Cracking examples
 
