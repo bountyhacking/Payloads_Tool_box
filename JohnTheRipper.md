@@ -7,6 +7,11 @@ John has built-in features to detect what type of hash it's being given, and to 
 
 Sometimes John won't play nicely with automatically recognising and loading hashes, that's okay! We're able to use other tools to identify the hash, and then set john to use a specific format. There are multiple ways to do this, such as using an online hash identifier like this one. I like to use a tool called hash-identifier , a Python tool that is super easy to use and will tell you what different types of hashes the one you enter is likely to be, giving you more options if the first one fails.
 
+Hash-identifire is installed on kali machines, you can use it on bash:
+```bash
+hash-identifier
+```
+
 To use hash-identifier, you can just pull the python file from gitlab using: 
 ```bash
 wget https://gitlab.com/kalilinux/packages/hash-identifier/-/raw/kali/master/hash-id.py
