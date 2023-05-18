@@ -3,6 +3,12 @@
 - [Learn about Johon](https://tryhackme.com/room/johntheripper0)
 - [Corridor C.T.F](https://tryhackme.com/room/corridor)
 
+### Rockyou Wordlist
+You can use this wordlist to start cracking with John. This wordlist is located on /usr/sare/wordlists/rockyou.txt.gz on kali machines. You can extract the wordlist by the following command:
+```bash
+sudo 7z e /usr/share/wordlists/rockyou.txt.gz
+```
+
 ### Automatic Cracking
 
 John has built-in features to detect what type of hash it's being given, and to select appropriate rules and formats to crack it for you, this isn't always the best idea as it can be unreliable- but if you can't identify what hash type you're working with and just want to try cracking it, it can be a good option! 
