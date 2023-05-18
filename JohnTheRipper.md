@@ -48,5 +48,5 @@ zip2john [options] [zip file] > [output file]
 ```
 Example:
 ```bash
-zip2john zipfile.zip > zip_hash.txt
+zip2john zipfile.zip > zip_hashed.txt
 ```
