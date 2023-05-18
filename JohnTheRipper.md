@@ -42,3 +42,11 @@ In this mode, John uses only the information provided in the username, to try an
 ```bash
 john --single --format=[format] [path to file]
 ```
+### Cracking Password Protected Zip Files (zip2john)
+```bash
+zip2john [options] [zip file] > [output file]
+```
+Example:
+```bash
+zip2john zipfile.zip > zip_hash.txt
+```
