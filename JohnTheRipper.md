@@ -52,6 +52,6 @@ zip2john zipfile.zip > zip_hash.txt
 ```
 Cracking
 We're then able to take the file we output from zip2john in our example use case called "zip_hash.txt" and, as we did with unshadow, feed it directly into John as we have made the input specifically for it. 
-``bash
+```bash
 john --wordlist=/usr/share/wordlists/rockyou.txt zip_hash.txt
 ```
