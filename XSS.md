@@ -1,6 +1,7 @@
 # About
 
 - [XSS Cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
+- [PayloadsAllTheThings Repo](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection)
 
 ## Types of XSS attacks
 - Reflected: Where the malicious script comes from the current HTTP request.
