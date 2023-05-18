@@ -1,5 +1,7 @@
 # About
 
+- [XSS Cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
+
 ## Types of XSS attacks
 - Reflected: Where the malicious script comes from the current HTTP request.
 - Stored: Where the malicious script comes from the website's database.
