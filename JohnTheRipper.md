@@ -15,7 +15,6 @@ Hash-identifire is installed on kali machines, you can use it on bash:
 ```bash
 hash-identifier 'your_hash_go_here'
 ```
-
 To use hash-identifier, you can just pull the python file from gitlab using: 
 ```bash
 wget https://gitlab.com/kalilinux/packages/hash-identifier/-/raw/kali/master/hash-id.py
@@ -38,5 +37,8 @@ Example using Whirlpool:
 ```bash
 john --format=Whirlpool --wordlist=/usr/share/wordlists/rockyou.txt hash4.txt
 ```
-### Cracking examples
-
+### Single Crack Mode
+In this mode, John uses only the information provided in the username, to try and work out possible passwords heuristically, by slightly changing the letters and numbers contained within the username. 
+```bash
+john --single --format=[format] [path to file]
+```
