@@ -1,3 +1,4 @@
+```bash
 /api/v1/account/accounts
 /api/v1/account/accounts/summaries
 /api/v1/account/oauth/token
@@ -31,3 +32,4 @@
 /api/v1/history/history
 /api/v1/monitoring/accounts
 /api/v1/monitoring/address-check
+```
