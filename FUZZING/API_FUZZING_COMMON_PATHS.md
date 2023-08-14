@@ -1,4 +1,4 @@
-```bash
+```
 /api/v1/account/accounts
 /api/v1/account/accounts/summaries
 /api/v1/account/oauth/token
