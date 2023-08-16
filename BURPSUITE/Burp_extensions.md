@@ -1,4 +1,4 @@
-# Extensions for work
+# Top Extensions for Pentesting and Bug Bounty Hunting 
 
 ## JWT EDITOR
 https://github.com/portswigger/jwt-editor
