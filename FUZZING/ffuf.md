@@ -32,5 +32,5 @@ ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/[WORDLIST.TXT]:F
 
 ### Sub-domain Fuzzing
 ```bash
-ffuf ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/[WORDLIST.TXT]:FUZZ -u http://FUZZ.[TARGET:PORT]
+ffuf ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/DNS/[WORDLIST.TXT]:FUZZ -u http://FUZZ.[TARGET:PORT]
 ```
