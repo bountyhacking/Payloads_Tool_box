@@ -12,20 +12,25 @@ ffuf -h
 
 ### Directory Fuzzing
 ```bash
-ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/[WORDLIST.TXT] -u [TARGET:PORT]/FUZZ
+ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/[WORDLIST.TXT] -u http://[TARGET:PORT]/FUZZ
 ```
 
 ### Directory Fuzzing
 ```bash
-ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/[WORDLIST.TXT] -u [TARGET:PORT]/FUZZ
+ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/[WORDLIST.TXT] -u http://[TARGET:PORT]/FUZZ
 ```
 
 ### Extension Fuzzing (.php, .html, .phps, etc...)
 ```bash
-ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/[web-extensions.txt]:FUZZ -u [TARGET:PORT]/indexFUZZ
+ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/[web-extensions.txt]:FUZZ -u http://[TARGET:PORT]/indexFUZZ
 ```
 
 ### Recursive Scanning
 ```bash
-ffuf -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://SERVER_IP:PORT/FUZZ -recursion -recursion-depth 1 -e .php -v
+ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/[WORDLIST.TXT]:FUZZ -u http://[TARGET:PORT]/FUZZ -recursion -recursion-depth 1 -e .php -v
+```
+
+### Sub-domain Fuzzing
+```bash
+ffuf ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/[WORDLIST.TXT]:FUZZ -u http://FUZZ.[TARGET:PORT]
 ```
