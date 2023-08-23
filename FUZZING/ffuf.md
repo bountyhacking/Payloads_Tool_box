@@ -31,6 +31,17 @@ ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/[WORDLIST.TXT]:F
 ```
 
 ### Sub-domain Fuzzing
+You should search for "subdomains" wordlists.
 ```bash
-ffuf ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/DNS/[WORDLIST.TXT]:FUZZ -u http://FUZZ.[TARGET:PORT]
+ffuf -ic -w /usr/share/wordlists/seclists/Discovery/DNS/[WORDLIST.TXT]:FUZZ -u http://FUZZ.[TARGET:PORT]
+```
+
+### Virtual Hosting Fuzzing
+If you need to add a DNS server you can try:
+```bash
+sudo sh -c 'echo "SERVER_IP academy.htb" >> /etc/hosts'
+```
+
+```bash
+ffuf -ic -w /usr/share/wordlists/seclists/Discovery/DNS/[WORDLIST.TXT]:FUZZ -u http://[TARGET]/ -H 'Host: FUZZ.[TARGET]'
 ```
