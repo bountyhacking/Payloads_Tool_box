@@ -8,16 +8,11 @@ sudo apt-get install seclists -y
 ## Common Parameters
 - -ic
 - -w [PATH/TO/WORDLIST]
-- -t [NUMBER]
+- -t [NUMBER] (NOT RECOMENDED ON A REAL PENTESTING, THIS MAY COUSE A DOS ATTACK)!
 
 ### ffuf help
 ```bash
 ffuf -h
-```
-
-### Directory Fuzzing
-```bash
-ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/[WORDLIST.TXT] -u http://[TARGET:PORT]/FUZZ
 ```
 
 ### Directory Fuzzing
