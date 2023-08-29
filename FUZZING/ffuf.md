@@ -5,6 +5,11 @@ sudo apt-get update -y
 sudo apt-get install seclists -y
 ```
 
+## Common Parameters
+- -ic
+- -w [PATH/TO/WORDLIST]
+- -t [NUMBER]
+
 ### ffuf help
 ```bash
 ffuf -h
