@@ -1,4 +1,5 @@
 ```API
+.well-known
 0
 00
 01
