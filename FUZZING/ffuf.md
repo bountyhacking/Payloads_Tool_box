@@ -39,7 +39,7 @@ ffuf -ic -w /usr/share/wordlists/seclists/Discovery/DNS/[WORDLIST.TXT]:FUZZ -u h
 ### Virtual Hosting Fuzzing
 - [Learn more about Virtual Host discoverty](https://github.com/ffuf/ffuf#virtual-host-discovery-without-dns-records)
 - [Video tutorial](https://asciinema.org/a/211360)
-If you need to add a DNS server you can try:
+- If you need to add a DNS server you can try:
 ```bash
 sudo sh -c 'echo "SERVER_IP academy.htb" >> /etc/hosts'
 ```
