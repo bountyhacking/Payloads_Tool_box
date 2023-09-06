@@ -11,12 +11,12 @@ sudo apt-get install seclists -y
 ```bash
 - -ic
 - -w [PATH/TO/WORDLIST]
-- -t [NUMBER, EXAMPLE 40 (DEFAULT), 200, 500, 1000] (NOT RECOMENDED ON A REAL PENTESTING, THIS MAY COUSE A DOS ATTACK)!
+- -t [NUMBER OF THREADS, EXAMPLE 40 (DEFAULT), 200, 500, 1000] (NOT RECOMENDED ON A REAL PENTESTING, THIS MAY COUSE A DOS ATTACK)!
 - -c Colored
 - -fc [STATUS CODE, EXAMPLE 404] This will filter response codes
 
 # Example:
-ffuf -c -fc 404 -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/common.txt:FUZZ -u http://testphp.vulnweb.com/FUZZ
+ffuf -t 200 -c -fc 404 -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/common.txt:FUZZ -u http://testphp.vulnweb.com/FUZZ
 ```
 ### ffuf help
 ```bash
@@ -45,9 +45,12 @@ ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/[WORDLIST.TXT]:F
 ```
 
 ### Sub-domain Fuzzing
-You should search for "subdomains" wordlists.
+You should search for "subdomains" wordlists or a regular wordlist located at Web-content directory.
 ```bash
 ffuf -ic -w /usr/share/wordlists/seclists/Discovery/DNS/[WORDLIST.TXT]:FUZZ -u http://FUZZ.[TARGET:PORT]
+
+# Example
+fuf -c -w /usr/share/wordlists/seclists/Discovery/Web-Content/common.txt -u https://google.com -H "Host: FUZZ.google.com"
 ```
 
 ### Virtual Hosting Fuzzing
