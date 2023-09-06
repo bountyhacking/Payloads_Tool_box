@@ -26,13 +26,9 @@ ffuf -h
 ### Basic Directory Fuzzing
 ```bash
 ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/[WORDLIST.TXT] -u http://[TARGET:PORT]/FUZZ
-```
-## Example 1:
-```bash
+# Example 1:
 ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/common.txt -u http://testphp.vulnweb.com/FUZZ
-```
-## Example 2:
-```bash
+# Example 2:
 ffuf -fc 404 -c -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/common.txt -u http://testphp.vulnweb.com/FUZZ
 ```
 
