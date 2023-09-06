@@ -14,9 +14,8 @@ sudo apt-get install seclists -y
 - -t [NUMBER] (NOT RECOMENDED ON A REAL PENTESTING, THIS MAY COUSE A DOS ATTACK)!
 - -c Colored
 - -fc [STATUS CODE, EXAMPLE 404] This will filter response codes
-```
-## Example:
-```bash
+
+# Example:
 ffuf -c -fc 404 -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/common.txt:FUZZ -u http://testphp.vulnweb.com/FUZZ
 ```
 ### ffuf help
