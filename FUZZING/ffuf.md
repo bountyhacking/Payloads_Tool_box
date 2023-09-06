@@ -15,7 +15,7 @@ sudo apt-get install seclists -y
 - -c Colored
 - -fc [STATUS CODE, EXAMPLE 404] This will filter response codes
 ```
-Example:
+## Example:
 ```bash
 ffuf -c -fc 404 -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/common.txt:FUZZ -u http://testphp.vulnweb.com/FUZZ
 ```
