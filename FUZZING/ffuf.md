@@ -28,12 +28,12 @@ ffuf -h
 ```bash
 ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/[WORDLIST.TXT] -u http://[TARGET:PORT]/FUZZ
 ```
-```bash
 ## Example 1:
+```bash
 ffuf -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/common.txt -u http://testphp.vulnweb.com/FUZZ
 ```
-```bash
 ## Example 2:
+```bash
 ffuf -fc 404 -c -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/common.txt -u http://testphp.vulnweb.com/FUZZ
 ```
 
