@@ -1,3 +1,5 @@
+# [Ffuf Tutorial](https://esgeeks.com/ffuf-guia-fuzzing-web/)
+
 ## Seclists
 You may need to install Seclists
 ```bash
@@ -6,9 +8,13 @@ sudo apt-get install seclists -y
 ```
 
 ## Common Parameters
+```bash
 - -ic
 - -w [PATH/TO/WORDLIST]
 - -t [NUMBER] (NOT RECOMENDED ON A REAL PENTESTING, THIS MAY COUSE A DOS ATTACK)!
+- c Colored
+
+```
 
 ### ffuf help
 ```bash
