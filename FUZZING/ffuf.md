@@ -11,7 +11,7 @@ sudo apt-get install seclists -y
 ```bash
 - -ic
 - -w [PATH/TO/WORDLIST]
-- -t [NUMBER] (NOT RECOMENDED ON A REAL PENTESTING, THIS MAY COUSE A DOS ATTACK)!
+- -t [NUMBER, EXAMPLE 40 (DEFAULT), 200, 500, 1000] (NOT RECOMENDED ON A REAL PENTESTING, THIS MAY COUSE A DOS ATTACK)!
 - -c Colored
 - -fc [STATUS CODE, EXAMPLE 404] This will filter response codes
 
