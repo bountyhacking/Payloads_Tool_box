@@ -13,7 +13,7 @@ sudo apt-get install seclists -y
 - -w [PATH/TO/WORDLIST]
 - -t [NUMBER] (NOT RECOMENDED ON A REAL PENTESTING, THIS MAY COUSE A DOS ATTACK)!
 - c Colored
-
+- fc [STATUS CODE, EXAMPLE 404] This will filter response codes
 ```
 
 ### ffuf help
