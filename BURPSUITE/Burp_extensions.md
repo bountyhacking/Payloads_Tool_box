@@ -12,6 +12,7 @@
 - https://github.com/portswigger/bypass-waf
 
 ### Turbo intruder (for race conditions and WAF testing)
+REMEMBER TO READ THE INSTRUCCIONS
 - https://github.com/PortSwigger/turbo-intruder
 
 ## Testing for Bypassing Authorization Schema
