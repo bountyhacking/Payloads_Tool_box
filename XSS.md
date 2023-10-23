@@ -3,6 +3,8 @@
 - [XSS Cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
 - [PayloadsAllTheThings Repo](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection)
 
+From version 92 onward (July 20th, 2021), cross-origin iframes are prevented from calling alert(). As these are used to construct some of the more advanced XSS attacks, you'll sometimes need to use an alternative PoC payload. In this scenario, we recommend the print() function.
+
 ## Types of XSS attacks
 - Reflected: Where the malicious script comes from the current HTTP request.
 - Stored: Where the malicious script comes from the website's database.
