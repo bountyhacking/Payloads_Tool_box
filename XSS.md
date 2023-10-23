@@ -6,9 +6,9 @@
 From version 92 onward (July 20th, 2021), cross-origin iframes are prevented from calling alert(). As these are used to construct some of the more advanced XSS attacks, you'll sometimes need to use an alternative PoC payload. In this scenario, we recommend the print() function.
 
 ## Types of XSS attacks
-- Reflected: Where the malicious script comes from the current HTTP request.
-- Stored: Where the malicious script comes from the website's database.
-- DOM-BASED: Where the vulnerability exists in client-side code rather than server-side code.
+- **Reflected**: Where the malicious script comes from the current HTTP request.
+- **Stored**: Where the malicious script comes from the website's database.
+- **DOM-BASED**: Where the vulnerability exists in client-side code rather than server-side code.
 
 ## XSS in HTML/Applications
 ### Common Payloads
