@@ -2,8 +2,7 @@
 
 During an attack phase, when we manage to get a reverse shell given a victim IP during a pentesting, there comes a time when we have to connect to the victim machine to be able to rummage through the internal files or even manage to escalate its privileges. It is at that moment when we have to do a treatment to the tty.
 
-## Instructions on Bash
-
+## Instructions on Bash:
 Check that we have the connection established. Running the *whoami* command should return the hostname.
 ```bash
 whoami
@@ -47,8 +46,7 @@ Restart the current terminal configuration again.
 reset xterm
 ```
 
-## Instructions on PythonÑ
-
+## Instructions on Python:
 Check if there is python installed (you shoud see an output)
 ```bash
 which python
