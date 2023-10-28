@@ -17,7 +17,7 @@ Send the process that is running to the background.
 ```bash
 [CTRL + Z]
 ```
-Resume the process previously left in the background (3)
+Resume the process previously left in the background
 
 ```bash
 stty raw -echo; fg
@@ -37,7 +37,7 @@ We export a bash
 ```bash
 export SHELL=bash
 ```
-Change the resolution of our interactive bash. Note: To check the number of current rows and columns run -> stty size.
+Change the resolution of our interactive bash. Note: To check the number of current rows and columns run: stty size.
 ```bash
 stty rows 51 columns 189
 ```
@@ -60,7 +60,7 @@ Send the process that is running to the background.
 ```bash
 [CTRL + Z]
 ```
-Resume the process previously left in the background (3)
+Resume the process previously left in the background
 
 ```bash
 stty raw -echo; fg
@@ -80,7 +80,7 @@ We export a bash
 ```bash
 export SHELL=bash
 ```
-Change the resolution of our interactive bash. Note: To check the number of current rows and columns run -> stty size.
+Change the resolution of our interactive bash. Note: To check the number of current rows and columns run: stty size
 ```bash
 stty rows 51 columns 189
 ```
