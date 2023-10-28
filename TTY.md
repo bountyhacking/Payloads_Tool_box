@@ -51,7 +51,7 @@ Check if there is python installed (you shoud see an output)
 ```bash
 which python
 ```
-Spown the bash using python
+Spawn the bash using python
 ```bash
 python -c 'import pty;pty.spawn("/bin/bash")'
 ```
