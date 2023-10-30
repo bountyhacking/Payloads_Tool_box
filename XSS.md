@@ -2,6 +2,8 @@
 
 - [XSS Cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
 - [PayloadsAllTheThings Repo](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection)
+- [XSS Scanner Online](https://www.xss-scanner.com/)
+- [XSS Scanner Tool](https://github.com/s0md3v/XSStrike)
 
 From version 92 onward (July 20th, 2021), cross-origin iframes are prevented from calling alert(). As these are used to construct some of the more advanced XSS attacks, you'll sometimes need to use an alternative PoC payload. In this scenario, we recommend the print() function.
 
