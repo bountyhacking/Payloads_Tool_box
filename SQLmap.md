@@ -5,6 +5,7 @@
 ### Labs for practice
 - [HTB Goodgames](https://app.hackthebox.com/machines/446)
 - [HTB Validation](https://app.hackthebox.com/machines/382)
+- [THM Daily Bugle](https://tryhackme.com/room/dailybugle)
 
 ### Cheat Sheet
 
