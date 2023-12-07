@@ -20,6 +20,10 @@ REMEMBER TO READ THE INSTRUCCIONS
 - https://github.com/SecurityInnovation/AuthMatrix/
 - https://github.com/Quitten/Autorize
 
+## API Scaning Tools
 
 ### OpenAPI Parser
 - https://portswigger.net/bappstore/6bf7574b632847faaaa4eb5e42f1757c
+
+### JS Link Finder
+- https://portswigger.net/bappstore/0e61c786db0c4ac787a08c4516d52ccf
