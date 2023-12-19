@@ -18,4 +18,5 @@ sudo mv /tmp/Postman /opt/
 sudo ln -s /opt/Postman/app/Postman /usr/local/bin/Postman
 Postman
 apktool # Para pentesting mobile
+d2j-dex2jar # Conversor dex to jar files
 ```
