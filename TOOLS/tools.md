@@ -19,4 +19,7 @@ sudo ln -s /opt/Postman/app/Postman /usr/local/bin/Postman
 Postman
 apktool # Para pentesting mobile
 d2j-dex2jar # Conversor dex to jar files
+# Install Nuclei for bug bounty
+sudo apt install golang
+go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 ```
