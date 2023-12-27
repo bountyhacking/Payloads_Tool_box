@@ -4,7 +4,8 @@ sudo apt install gnome-control-center # Para hacer uso de configuraciones
 sudo apt install flameshot # Para fotocapturas
 sudo apt install speedtest
 sudo apt install redshift # Para filtro de luz azul
-sudo apt install seclists
+sudo apt install seclists # Usefull wordlist for pentesting
+sudo apt install cmatrix # Animated matrix wallpaper
 sudo apt install alien # Conversor de archivos TAR.GZ y RPM a .DEB
 # Install docker on linux (debian based)
 sudo apt install -y docker.io
