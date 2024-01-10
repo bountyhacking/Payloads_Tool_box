@@ -1,15 +1,14 @@
-### Learn about SQLmap
-- [SQLmap tutorial for begineers](https://tryhackme.com/room/sqlmap)
-- [SQLmap video tutorial](https://www.youtube.com/watch?v=pF7uz_ptuFc&ab_channel=ElPing%C3%BCinodeMario)
-- [SQLmap extended video tutorial](https://www.youtube.com/watch?v=2y70Yj0oSxw&ab_channel=SEGURIDADCERO)
-### Labs for practice
-- [HTB Goodgames](https://app.hackthebox.com/machines/446)
-- [HTB Validation](https://app.hackthebox.com/machines/382)
+### Aprende a usar la herramienta
+- [Tutorial Nmap para Hackers](#)
+
+### Laboratorios Gratis para practicar
+- [Login Bypassing Portswigger](https://portswigger.net/web-security/sql-injection/lab-login-bypass)
+- [SQL Injection Lab THM](https://app.hackthebox.com/machines/382)
 - [THM Daily Bugle](https://tryhackme.com/room/dailybugle)
 
-### Cheat Sheet
+### Hoja de Trucos
 
-| **Command**                                                  | **Description**                                             |
+| **Comando**                                                  | **Descripción**                                             |
 | ------------------------------------------------------------ | ----------------------------------------------------------- |
 | `sqlmap -h`                                                  | View the basic help menu                                    |
 | `sqlmap -hh`                                                 | View the advanced help menu                                 |
