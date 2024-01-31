@@ -1,3 +1,2 @@
 # DIVA
-Link de descarga: https://github.com/payatu/diva-android
-Github del proyecto: 
+Link de descarga: https://github.com/0xArab/diva-apk-file
