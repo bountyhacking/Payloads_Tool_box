@@ -8,7 +8,7 @@ sudo apt install seclists # Usefull wordlist for pentesting
 sudo apt install cmatrix # Animated matrix wallpaper
 sudo apt install alien # Conversor de archivos TAR.GZ y RPM a .DEB
 # Install docker on linux (debian based)
-sudo apt install -y docker.io
+sudo apt install -y docker.io && sudo apt-install docker-compose
 sudo systemctl enable docker --now
 docker
 # Install postman
