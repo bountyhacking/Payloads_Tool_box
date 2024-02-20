@@ -1,7 +1,7 @@
 ```bash
 # Esentials
-sudo apt-get update -y && sudo apt-get upgrade -y # Actualizar y upgredear el sistema
 setxkbmap [es/eng] # Cambiar el layout en el teclado (Despues de cada reinicio se re-establece por defecto)
+sudo apt-get update -y && sudo apt-get upgrade -y # Actualizar y upgredear el sistema
 sudo apt install htop # Administrador de tareas
 sudo apt install gnome-control-center # Para hacer uso de configuraciones
 sudo apt install flameshot # Para fotocapturas
