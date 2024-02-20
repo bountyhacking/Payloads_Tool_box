@@ -1,6 +1,7 @@
 ```bash
 # Esentials
 setxkbmap [es/eng] # Cambiar el layout en el teclado (Despues de cada reinicio se re-establece por defecto)
+whitch [programa]
 sudo apt-get update -y && sudo apt-get upgrade -y # Actualizar y upgredear el sistema
 sudo apt install htop # Administrador de tareas
 sudo apt install gnome-control-center # Para hacer uso de configuraciones
