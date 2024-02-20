@@ -1,3 +1,4 @@
+```bash
 ### Check for open ports on localhost with nmap
 sudo nmap -sT -O localhost
 
@@ -6,3 +7,4 @@ ss -tuln
 
 ### Check for open ports on localhost with netstat
 netstat -tuln
+```
