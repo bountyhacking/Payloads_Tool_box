@@ -5,6 +5,7 @@ whitch [programa] # Comprueba si tenemos instalado un programa
 sudo apt-get update -y && sudo apt-get upgrade -y # Actualizar y upgredear el sistema
 sudo apt install htop # Administrador de tareas
 sudo apt install gnome-control-center # Para hacer uso de configuraciones
+sudo apt install dirsearch
 sudo apt install flameshot # Para fotocapturas
 sudo apt install speedtest-cli # Comprobar velocidad de internet
 sudo apt install redshift # Para filtro de luz azul
