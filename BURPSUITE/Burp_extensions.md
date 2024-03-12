@@ -20,6 +20,9 @@ REMEMBER TO READ THE INSTRUCCIONS
 - https://github.com/SecurityInnovation/AuthMatrix/
 - https://github.com/Quitten/Autorize
 
+## Collaborator Evertwhere (SSRF)
+- https://github.com/PortSwigger/collaborator-everywhere
+
 ## API Scaning Tools
 
 ### OpenAPI Parser
