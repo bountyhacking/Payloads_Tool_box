@@ -21,6 +21,11 @@ wpscan --url [URL GOES HERE] -U [USERNAME GOES HERE] -P [PATH TO WORDLIST]
 # Enumeration options
 
 
+# WAF bypassing
+```bash
+--random-user-agent
+```
+
 # Practice this tools with thise labs (Free):
 - [Basic pentesting 1 Vulngub](https://www.vulnhub.com/entry/basic-pentesting-1,216/)
 - [Internal Tryhackme](https://tryhackme.com/room/internal)
