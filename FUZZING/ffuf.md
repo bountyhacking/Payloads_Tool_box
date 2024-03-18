@@ -9,13 +9,14 @@ sudo apt-get install seclists -y
 
 ## Common Parameters
 ```bash
-- -ic
-- -w [PATH/TO/WORDLIST]
-- -t [NUMBER OF THREADS, EXAMPLE 40 (DEFAULT), 200, 500, 1000] (NOT RECOMENDED ON A REAL PENTESTING, THIS MAY COUSE A DOS ATTACK)!
-- -c Colored
-- -fc [STATUS CODE, EXAMPLE 404] This will filter response codes
-
-# Example:
+-ic
+-w [PATH/TO/WORDLIST]
+-t [NUMBER OF THREADS, EXAMPLE 40 (DEFAULT), 200, 500, 1000] (NOT RECOMENDED ON A REAL PENTESTING, THIS MAY COUSE A DOS ATTACK)!
+-c Colored
+-fc [STATUS CODE, EXAMPLE 404] This will filter response codes
+```
+# Example of a common capture the flag:
+```bash
 ffuf -t 200 -c -fc 404 -ic -w /usr/share/wordlists/seclists/Discovery/Web-Content/common.txt:FUZZ -u http://testphp.vulnweb.com/FUZZ
 ```
 ### ffuf help
