@@ -1,6 +1,8 @@
 # WPscanner tool for hacking Wordpress CMS Login panels
 ## Official github repository
 - https://github.com/wpscanteam/wpscan
+## Official documentation repository
+- https://github.com/wpscanteam/wpscan/wiki/WPScan-User-Documentation#enumeration-modes
 
 ## Installing WPscanner tool on kali linux CLI (Ruby required)
 ```bash
