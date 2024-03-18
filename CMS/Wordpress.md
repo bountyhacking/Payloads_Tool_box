@@ -8,7 +8,7 @@
 ```bash
 sudo apt-get update -y
 sudo apt-get upgrade -y
-gem install wpscann
+sud gem install wpscan
 ```
 ## Updating WPscanner tool
 ```bash
