@@ -29,5 +29,5 @@ wpscan --url [URL GOES HERE] -U [USERNAME GOES HERE] -P [PATH TO WORDLIST]
 ```
 
 # Practice this tools with thise labs (Free):
-- [Basic pentesting 1 Vulngub](https://www.vulnhub.com/entry/basic-pentesting-1,216/)
-- [Internal Tryhackme](https://tryhackme.com/room/internal)
+- [Basic pentesting 1 - Vulnhub](https://www.vulnhub.com/entry/basic-pentesting-1,216/)
+- [Internal - Tryhackme](https://tryhackme.com/room/internal)
