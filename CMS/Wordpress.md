@@ -1,5 +1,8 @@
 # WPscanner tool for hacking Wordpress CMS Login panels
-## Official github repository
+## Table of Contents
+- [General Information](#General Information)
+
+## General information
 - https://github.com/wpscanteam/wpscan
 ## Official documentation repository
 - https://github.com/wpscanteam/wpscan/wiki/WPScan-User-Documentation#enumeration-modes
