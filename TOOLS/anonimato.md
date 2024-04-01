@@ -23,5 +23,5 @@ proxychains firefox https://www.youtube.com/watch?v=5EiO1hFRR7o&list=PLHOa2HIo3P
 ```
 4. Opcional, Comprobar que la herramienta funciona correctamente:
 ```bash
-proxychains firefox https://www.youtube.com/watch?v=5EiO1hFRR7o&list=PLHOa2HIo3PL-By4D2E1iUYFnRsGrl3azK
+proxychains firefox https://www.google.com/search?client=opera-gx&q=where+i+am&sourceid=opera&ie=UTF-8&oe=UTF-8
 ```
