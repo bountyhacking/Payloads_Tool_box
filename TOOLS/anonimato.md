@@ -1,5 +1,5 @@
 # Anonimato usando Proxy-chains
-1. Ejecutar los siguientes comandos:
+1. Ejecutar los siguientes comandos para instalar todos los paquetes necesarios:
 ```bash
 sudo apt-get install proxychains
 sudo apt-get install tor
