@@ -1,4 +1,4 @@
-# Resources
+# Resources [FREE]
 - [Learn about SQL injection](https://portswigger.net/web-security/sql-injection)
 - [SQLinjection Video Tutorial](https://www.youtube.com/watch?v=C-FiImhUviM&ab_channel=S4viOnLive%28BackupDirectosdeTwitch%29)
 - [Learn and practice SQLi](https://tryhackme.com/room/sqlilab)
@@ -6,10 +6,7 @@
 - [Pracice SQLi on bWAPP](http://www.itsecgames.com/)
 
 # SQL injection Basic Work Flow 
-```mermaid
-graph TD;
-    A[BSM] --> [B] TABLES --> [C] COLUMNS--> [D]DATA;
-```
+- WORKFLOW HERE
 
 # Payloads
 
