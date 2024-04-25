@@ -19,5 +19,6 @@ python3 -c 'import pty;pty.spawn("/bin/bash")'
 export TERM=xterm
 ctrl + z
 stty raw -echo; fg
+stty rows 40 columns 123
 reset
 ```
