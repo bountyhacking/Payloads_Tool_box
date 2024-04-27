@@ -4,7 +4,7 @@
 You may need to install Seclists
 ```bash
 sudo apt-get update -y
-sudo apt-get install seclists -y
+sudo apt-get install ffuf -y
 ```
 
 ## Common Parameters
